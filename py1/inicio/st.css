@@ -1,0 +1,103 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f7fafc;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.header {  
+    background-color: #086834;  
+    color: white;  
+    padding: 150px;  
+    text-align: center;  
+}  
+
+.header h1 {  
+    font-size: 2.9em;  
+    margin: 0;  
+}  
+
+.header p {  
+    font-size: 1.2em;  
+}  
+
+.team-container {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
+    gap: 20px;  
+    padding: 20px;
+    border-radius: 10px;
+}  
+
+.team-member {  
+    background-color: white;  
+    border-radius: 10px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    text-align: center;
+    padding: 15px;  
+}  
+
+.team-member img {  
+    width: 200px;  
+    height: 220px;  
+    border-radius: 5px;
+}  
+
+.team-member h2 {  
+    font-size: 1.5em;  
+    margin: 100px 0 20px;  
+}  
+
+.team-member p {  
+    color: #533838;  
+}  
+
+
+.pupita {
+    padding-top: 20px; 
+    padding-bottom: 50px;
+    background-color: rgb(2, 36, 4);
+}
+
+.cosito {
+    background-color: rgb(10, 170, 31);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 8px;
+    font-family: 'Kablammo', cursive;
+}
+
+
+
+.nav-links li {
+    display: inline-block;
+    padding-left: 10px; 
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 10px solid transparent;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
